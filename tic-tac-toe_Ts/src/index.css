@@ -1,0 +1,74 @@
+/* index.css */
+
+/* 게임 영역 */
+.game {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+/* 게임 보드 스타일 */
+.game-board {
+  background-color: #fff8e6;
+  border: 1px solid #ffbb7b;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 600px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.main {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 1.8rem;
+  padding-left: 20%;
+}
+
+/* 게임 정보 스타일 */
+.game-info {
+  margin: 20px;
+  padding: 0.2rem 2rem;
+  border: 2px solid #ff5700;
+  font-size: 18px;
+  width: 35%;
+  border-radius: 30px;
+}
+
+.game-info p:first-child {
+  font-size: 25px;
+  color: #c68b5b;
+}
+
+.game-info ol {
+  padding-left: 20px;
+  margin-top: 2rem;
+}
+
+.game-info ol li {
+  margin-bottom: 10px;
+}
+
+.player {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  color: red;
+}
+
+.game-info a {
+  color: #ff7400;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.game-info a:hover {
+  color: #ff5700;
+}
